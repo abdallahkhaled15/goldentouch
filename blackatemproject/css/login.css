@@ -1,0 +1,43 @@
+.logtitle,
+.logdesc {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 900;
+  user-select: none;
+  color: #3D3831;
+}
+
+.div{
+    height: 100vh;
+}
+.logtitle {
+  font-size: 40px;
+  color: #73B1FF;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+  }
+  
+.imglog {
+    width: 450px;
+    height: 446px;
+  }
+  
+.login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width:990px) {
+    .row,.container,.col{
+        width: fit-content;
+    }
+    .coln {
+        display: none !important;
+      }
+}

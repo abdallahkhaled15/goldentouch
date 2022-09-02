@@ -1,0 +1,44 @@
+.formtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 10%;
+  }
+  .titleinfo{
+
+    margin-top: 10%;
+    width: fit-content;
+    font-size: 30px;
+    color: #00365C;
+  }
+  #photosadd{
+
+    margin-top: 3%;
+    width: fit-content;
+    font-size: 26px;
+    color: #0071FF;
+  }
+
+  .heading{
+
+    margin-top: 3%;
+  
+    width: fit-content;
+    font-size: 26px;
+    color: #0071FF;
+  }.form-control{
+    margin-top: 3%;
+    width: 40%;
+  }
+  #inputtitle{
+    background-color: #EFF0F1;
+  }
+  #formFileMultiple{
+    width: 50%;
+  }
+  .imginfo{
+    margin-top: 10%;
+    height: 350px;
+    width: 350px;
+  }

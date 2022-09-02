@@ -1,0 +1,59 @@
+.text {
+    color: #3D3831;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body {
+    background-color: #FAF8F4;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .txtgold {
+    font-size: 40px;
+    display: block;
+    color: #e1c265;
+  
+  }
+
+.cardimg {
+    width: 19rem;
+    height: 350px;
+   }
+  .swiper {
+    width: 19rem;
+    height: 350px;
+  }
+  .card-text {
+    color: rgb(45, 45, 45);
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+  }
+
+  
+  .card-body {
+    width: 100% !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #e2e2e2;
+  }
+  .d-flex {
+    display: flex!important;
+    align-items: center;
+}
+
+  .card {
+
+    transition: all 0.5s all ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin: 20px 0;
+    padding: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: #E8F1F8 1px solid;
+  }
+
+  
