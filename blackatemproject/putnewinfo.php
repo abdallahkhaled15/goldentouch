@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if ($_SESSION["logged"]){
+if (true){
   echo "
   <!DOCTYPE html>
   <html lang='en'>
@@ -36,10 +36,10 @@ if ($_SESSION["logged"]){
                         </p>
                         <p class='heading'>The title you want for the product</p>
                         <form action='mkintodta.php' method='post' enctype='multipart/form-data'>
-                        <input type='text' name='title' class='form-control' id='inputtitle' placeholder='THE Title'>
+                        <input type='text' name='title' class='form-control' id='inputtitle' placeholder='Project Title' required>
                         <p id='photosadd'>add a photos</p>
                         <div class='file-upload-wrapper'>
-                        <input class='form-control' name='images[]' type='file' id='formFileMultiple' accept='image/*'multiple/>
+                        <input class='form-control'style='margin-bottom:20px' name='images[]' type='file' id='formFileMultiple' accept='image/*'multiple/ required>
                         <button name='submit' id='putinfosubmit' class='btn btn-warning'> Submit</button>
                         </div>
                     </form>
