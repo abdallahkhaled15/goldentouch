@@ -23,8 +23,7 @@ a {
   font-size: 19px;
 }
 .imginfo{
-  height: 285px;
-  width: 385px;
+  height: 200px !important;
 }
 .events{
   display: flex;
@@ -413,6 +412,12 @@ video::-webkit-media-controls {
   background: #d4c446;
 }
 @media (max-width:1000px) {
+  .bigdesc {
+    margin-top: 7% !important;
+    height: fit-content;
+    text-align: center !important;
+    font-size: 17px;
+  }
   .cardimg {
     width: 14rem !important;
     height: 200px !important;
@@ -483,7 +488,6 @@ video::-webkit-media-controls {
   }
 .imginfo{
      height: 300px !important;
-    width: 352px !important;
 }
   .photos {
 display: none;

@@ -79,10 +79,10 @@ echo $header;
     <div class="container text-center">
       <p class="textgold">Golden Touch for Exhibitions and Events</p>
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-12 col-md-8">
         <p class="bigdesc">We have workshop photos. We are a company and factory designing and manufacturing exhibition booths through production and graphics teams. We meet our services in the Arab Republic of Egypt with the best services from the beginning until delivery and dismantling,this is for exhibition stands, booths, event and conference preparations. Please don't hesitate to contact</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-12 col-md-4">
           <img src="assets\images\info.jpg" alt="info image" class="imginfo">
         </div>
       </div>
