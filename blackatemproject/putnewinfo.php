@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (true){
+if ($_SESSION["logged"]){
   echo "
   <!DOCTYPE html>
   <html lang='en'>

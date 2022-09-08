@@ -67,7 +67,7 @@ We have been in the market since 2010, specialized in managing events, exhibitio
     <div class="container mb-4 pb-3  mt-3 d-flex flex-column flex-row align-items-center text-center" style="border-bottom:5px dashed #d7b605 ;">
       <p class="titleus">About Us</p>
       <p class="descus mt-1">Golden Touch Advertising Agency We have been in the market since 2010 and we have been in the Egyptian market and for two years we have gone to work in Arab markets. We have produced everything in advertising, stands, kiosks, events or sign</p>
-      <button class="btn btn-warning mt-3" ><a href="index.html"> Home Page</a></button>
+      <button class="btn btn-warning mt-3" ><a href="index.php"> Home Page</a></button>
     </div>
   </div>
   <?php
