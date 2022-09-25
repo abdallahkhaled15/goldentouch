@@ -20,15 +20,15 @@ if ($_SESSION["logged"]){
           rel='stylesheet'>
         <link rel='icon' type='image/x-icon' href='assets/images/iconwhite.png' />
     </head>
-    <body>
+    <body class='h100'>
  
           <div class='loader'>
             <div id='ring'>
             </div>
             <img src='assets/images/iconwhite.png' draggable='false' class='imgloader' alt=''>
           </div>
-        <div class='container'>
-            <div class='row'>
+        <div class='container h-100'>
+            <div class='row h-100'>
                 <div class='col-12 col-md-7'> 
                     <div class='formtwo ' >
                         <p class='titleinfo'>

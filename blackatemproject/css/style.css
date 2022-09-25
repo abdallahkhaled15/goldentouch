@@ -14,6 +14,14 @@ a {
   height: 50px;
   top: 15px;
 }
+.h100{
+  height: 100vh !important;
+}
+.imginfodiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .bigdesc {
   margin-top: -1%;
   display: flex;

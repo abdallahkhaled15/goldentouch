@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 02, 2022 at 05:48 PM
+-- Generation Time: Sep 25, 2022 at 12:50 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -24,6 +24,25 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `emails`
+--
+
+DROP TABLE IF EXISTS `emails`;
+CREATE TABLE IF NOT EXISTS `emails` (
+  `username` varchar(111) NOT NULL,
+  `password` varchar(111) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `emails`
+--
+
+INSERT INTO `emails` (`username`, `password`) VALUES
+('hey', 'hey');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `products`
 --
 
@@ -33,7 +52,14 @@ CREATE TABLE IF NOT EXISTS `products` (
   `title` varchar(111) NOT NULL,
   `paths` varchar(11111) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `products`
+--
+
+INSERT INTO `products` (`id`, `title`, `paths`) VALUES
+(4, 'erenyeager', '1954060024download.jpg,6579057847q.jpg,2650710708gerg.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
